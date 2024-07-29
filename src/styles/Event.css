@@ -1,0 +1,27 @@
+.event {
+  position: relative;
+  background-color: var(--event-color);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: grab;
+}
+
+.event:hover {
+  opacity: 0.8;
+}
+
+.event button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+
+.event button:hover {
+  color: red;
+}
